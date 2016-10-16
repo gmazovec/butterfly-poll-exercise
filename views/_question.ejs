@@ -1,0 +1,31 @@
+
+<div class="poll-question">
+  <p class="statement"><%= data.statement %></p>
+
+  <div class="rate-picker">
+    <div data-rate="1">
+      <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11 0l3.4 6.94L22 8.054l-5.5 5.402 1.298 7.628-6.798-3.6-6.798 3.6L5.5 13.455 0 8.053 7.6 6.94 11 0z" fill="#DEDEDE"></path></svg>
+    </div>
+    <div data-rate="2">
+      <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11 0l3.4 6.94L22 8.054l-5.5 5.402 1.298 7.628-6.798-3.6-6.798 3.6L5.5 13.455 0 8.053 7.6 6.94 11 0z" fill="#DEDEDE"></path></svg>
+    </div>
+    <div data-rate="3">
+      <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11 0l3.4 6.94L22 8.054l-5.5 5.402 1.298 7.628-6.798-3.6-6.798 3.6L5.5 13.455 0 8.053 7.6 6.94 11 0z" fill="#DEDEDE"></path></svg>
+    </div>
+    <div data-rate="4">
+      <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11 0l3.4 6.94L22 8.054l-5.5 5.402 1.298 7.628-6.798-3.6-6.798 3.6L5.5 13.455 0 8.053 7.6 6.94 11 0z" fill="#DEDEDE"></path></svg>
+    </div>
+    <div data-rate="5">
+      <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11 0l3.4 6.94L22 8.054l-5.5 5.402 1.298 7.628-6.798-3.6-6.798 3.6L5.5 13.455 0 8.053 7.6 6.94 11 0z" fill="#DEDEDE"></path></svg>
+    </div>
+  </div>
+
+  <div class="row-equal">
+    <div>Agree</div>
+    <div><a href="#">Add comment</a></div>
+    <div>Disagree</div>
+  </div>
+
+  <input class="rate" type="hidden" name="statement_rate[<%= data.id %>]" value="0">
+  <textarea name="statement_comment[<%= data.id %>]" rows="4" placeholder="<%= data.commentPlaceholder %>"></textarea>
+</div>

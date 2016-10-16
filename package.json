@@ -1,0 +1,17 @@
+{
+  "name": "butterfly-poll-excercise",
+  "version": "1.0.0",
+  "description": "Simple poll page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregor Mazovec",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "node-sass": "^3.10.1",
+    "serve-static": "^1.11.1"
+  }
+}
